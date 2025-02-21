@@ -1,5 +1,9 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <LipsumResourcePath Condition="'$(LipsumResourcePath)' == ''">Resources\*.txt</LipsumResourcePath>
+    </PropertyGroup>
+    
     <ItemGroup>
-        <EmbeddedResource Include="Resources\*.txt"/>
+        <EmbeddedResource Include="$(LipsumResourcePath)" />
     </ItemGroup>
 </Project>
