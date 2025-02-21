@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackagePropsTest", "PackagePropsTest\PackagePropsTest.csproj", "{932CD1A7-9B70-4C29-976F-76E5A8D29502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeLibrary", "AwesomeLibrary\AwesomeLibrary.csproj", "{9511BB3D-C340-4F39-85F6-E099DA26E73A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93E67E40-A017-4336-852E-D86C6A497D1F}"
+	ProjectSection(SolutionItems) = preProject
+		AwesomeLibrary.1.0.0.nupkg = AwesomeLibrary.1.0.0.nupkg
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{932CD1A7-9B70-4C29-976F-76E5A8D29502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932CD1A7-9B70-4C29-976F-76E5A8D29502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932CD1A7-9B70-4C29-976F-76E5A8D29502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932CD1A7-9B70-4C29-976F-76E5A8D29502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9511BB3D-C340-4F39-85F6-E099DA26E73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9511BB3D-C340-4F39-85F6-E099DA26E73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9511BB3D-C340-4F39-85F6-E099DA26E73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9511BB3D-C340-4F39-85F6-E099DA26E73A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

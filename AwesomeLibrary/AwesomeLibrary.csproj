@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <PackageId>AwesomeLibrary</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Me</Authors>
+        <Description>My NuGet package with embedded resource targets</Description>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="buildTransitive\AwesomeLibrary.targets" Pack="true" PackagePath="buildTransitive\" />
+    </ItemGroup>
+
+</Project>
