@@ -13,5 +13,6 @@
         <ProjectReference Include="..\AwesomeLibrary\AwesomeLibrary.csproj" />
     </ItemGroup>
 
+    <Import Project="..\AwesomeLibrary\buildTransitive\AwesomeLibrary.props" />
     <Import Project="..\AwesomeLibrary\buildTransitive\AwesomeLibrary.targets" />
 </Project>

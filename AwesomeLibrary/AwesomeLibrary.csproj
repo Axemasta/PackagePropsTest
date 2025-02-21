@@ -12,6 +12,7 @@
     </PropertyGroup>
     
     <ItemGroup>
+        <None Include="buildTransitive\AwesomeLibrary.props" Pack="true" PackagePath="buildTransitive\" />
         <None Include="buildTransitive\AwesomeLibrary.targets" Pack="true" PackagePath="buildTransitive\" />
     </ItemGroup>
 
