@@ -6,8 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeLibrary", "AwesomeLi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93E67E40-A017-4336-852E-D86C6A497D1F}"
 	ProjectSection(SolutionItems) = preProject
-		AwesomeLibrary.1.0.0.nupkg = AwesomeLibrary.1.0.0.nupkg
 		nuget.config = nuget.config
+		AwesomeLibrary.1.1.0.nupkg = AwesomeLibrary.1.1.0.nupkg
 	EndProjectSection
 EndProject
 Global
